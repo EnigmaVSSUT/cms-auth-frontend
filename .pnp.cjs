@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:11.10.4"],\
             ["@emotion/styled", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:11.10.4"],\
+            ["@mui/icons-material", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:5.10.3"],\
             ["@mui/material", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:5.10.5"],\
             ["eslint", "npm:8.23.1"],\
             ["eslint-config-next", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:12.3.0"],\
@@ -476,6 +477,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@mui-core-downloads-tracker-npm-5.10.5-25709aec3b-9320bfe44c.zip/node_modules/@mui/core-downloads-tracker/",\
           "packageDependencies": [\
             ["@mui/core-downloads-tracker", "npm:5.10.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@mui/icons-material", [\
+        ["npm:5.10.3", {\
+          "packageLocation": "./.yarn/cache/@mui-icons-material-npm-5.10.3-1194b2ca0c-9c32f3e9fc.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "npm:5.10.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:5.10.3", {\
+          "packageLocation": "./.yarn/__virtual__/@mui-icons-material-virtual-dab8dc8c98/0/cache/@mui-icons-material-npm-5.10.3-1194b2ca0c-9c32f3e9fc.zip/node_modules/@mui/icons-material/",\
+          "packageDependencies": [\
+            ["@mui/icons-material", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:5.10.3"],\
+            ["@babel/runtime", "npm:7.19.0"],\
+            ["@mui/material", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:5.10.5"],\
+            ["@types/mui__material", null],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@mui/material",\
+            "@types/mui__material",\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1307,6 +1335,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cms-auth-frontend", "workspace:."],\
             ["@emotion/react", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:11.10.4"],\
             ["@emotion/styled", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:11.10.4"],\
+            ["@mui/icons-material", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:5.10.3"],\
             ["@mui/material", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:5.10.5"],\
             ["eslint", "npm:8.23.1"],\
             ["eslint-config-next", "virtual:48c6451de7e73a7ac7f93b2bbab1b159ae001af4bc6896548793f8ae5c88ca9ee3563f6ef38220531c62750c39be081783f313424283fbe046c99934d4cc10c9#npm:12.3.0"],\
