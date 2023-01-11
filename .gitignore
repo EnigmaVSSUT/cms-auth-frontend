@@ -5,16 +5,6 @@
 /.pnp
 .pnp.js
 
-#yarn
-.yarn/*
-!.yarn/patches
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
-
-
 # testing
 /coverage
 
@@ -40,7 +30,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
